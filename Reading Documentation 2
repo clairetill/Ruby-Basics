@@ -1,1 +1,70 @@
 
+1. Methods without Arguments 
+
+result = "xyz".upcase
+
+2. Required Arguments
+
+a.insert(3, 5, 6, 7)
+
+3. Optional Arguments
+
+# puts s.split.inspect
+["abc", "def", "ghi,jkl", "mno", "pqr,stu", "vwx", "yz"]
+
+# puts s.split(',').inspect
+["abc def ghi", "jkl mno pqr", "stu vwx yz"]
+
+# puts s.split(',', 2).inspect
+["abc def ghi", "jkl mno pqr,stu vwx yz"]
+
+4. Optional Arguments Redux
+
+# puts Date.new
+-4712-01-01
+
+# puts Date.new(2016)
+2016-01-01
+
+# puts Date.new(2016, 5)
+2016-05-01
+
+# puts Date.new(2016, 5, 13)
+2016-05-13
+
+5. Mandatory Blocks
+
+value = a.bsearch { |element| element > 8 }
+puts value # => 11
+
+6. Multiple Signatures
+
+# puts a.fetch(7)
+IndexError: index 7 outside of array bounds: -5...5
+
+# puts a.fetch(7, 'beats me')
+beats me
+
+# puts a.fetch(7) { |index| index**2 }
+49
+
+7. Keyword Arguments
+
+5
+8
+
+8. Parent Class
+
+s = 'abc'
+puts s.public_methods(false).inspect
+
+9. Included Modules
+
+a = [5, 9, 3, 11]
+puts a.min(2)
+
+10. Down the Rabbit Hole
+
+http://ruby-doc.org/stdlib-2.5.3/libdoc/psych/rdoc/Psych.html#method-c-load_file
+
+
