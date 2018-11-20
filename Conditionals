@@ -1,1 +1,71 @@
+1.	Unpredictable Weather (Part 1)	
 
+if sun == 'visible'
+  puts 'The sun is so bright!'
+end
+
+2.	Unpredictable Weather (Part 2)	
+
+unless sun == 'visible'
+  puts 'The clouds are blocking the sun!'
+end
+
+3.	Unpredictable Weather (Part 3)	
+
+puts 'The sun is so bright!' if sun == 'visible'
+puts 'The clouds are blocking the sun!' unless sun == 'visible'
+
+4.	True or False	
+
+boolean ? puts("I'm true!") : puts("I'm false!")
+
+5.	Truthy Number
+
+"My favorite number is 7."
+
+6.	Stoplight (Part 1)	
+
+case stoplight
+when 'green'
+  puts 'Go!'
+when 'yellow'
+  puts 'Slow down!'
+else
+  puts 'Stop!'
+end
+
+7.	Stoplight (Part 2)	
+
+if stoplight == 'green'
+  puts 'Go!'
+elsif stoplight == 'yellow'
+  puts 'Slow down!'
+else
+  puts 'Stop!'
+end
+
+8.	Sleep Alert	
+
+alert = if status == 'awake'
+          'Be productive!'
+        else
+          'Go to sleep!'
+        end
+
+puts alert
+
+9.	Cool Numbers	
+
+if number == 5
+  puts '5 is a cool number!'
+else
+  puts 'Other numbers are cool too!'
+end
+
+10.	Stoplight (Part 3)
+
+case stoplight
+when 'green'  then puts 'Go!'
+when 'yellow' then puts 'Slow down!'
+else               puts 'Stop!'
+end
